@@ -1,0 +1,56 @@
+
+.men{
+    background-color: chartreuse;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.LG-MX{
+    height: 80px;
+}
+
+nav a{
+    text-decoration: none;
+    padding-left: 10px;
+    color: black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+
+
+.Principal-MX{
+    width: 100%;
+    background-color: aqua;
+    
+}   
+
+h1,h2{
+    font-size: 30px;
+    font-weight:100 ;
+    text-align: center;
+
+}
+
+p{
+    text-align: center;
+}
+
+
+.IMG-P{
+width: 25%;
+
+}
+
+.estados{
+    display: flex;
+    justify-content:space-evenly;    
+    align-items: center;
+}
+
+.img-estados{
+    height: 35%;
+   
+}
+
