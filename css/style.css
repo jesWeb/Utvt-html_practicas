@@ -1,9 +1,26 @@
+*,
+*::before,
+*::after
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+h1,h2{
+    font-size: 30px;
+    font-weight:100 ;
+    text-align: center;
+    margin: 10px;
+}
+
+
 
 .men{
-    background-color: chartreuse;
+    background-color: rgba(114, 118, 111, 0.498);
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -11,35 +28,36 @@
     height: 80px;
 }
 
+
 nav a{
     text-decoration: none;
-    padding-left: 10px;
+    margin: 10px;
     color: black;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 15px;
 }
 
-
-.Principal-MX{
-    width: 100%;
-    background-color: aqua;
+.des-MX{
     
-}   
-
-h1,h2{
-    font-size: 30px;
-    font-weight:100 ;
     text-align: center;
-
+    margin-top: 1em;
+    margin-bottom: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-p{
-    text-align: center;
+.des-MX p{
+    
+    text-align: start;
+    padding: 10px;
+    font-size: 18px;
+    letter-spacing: 3px;
 }
-
 
 .IMG-P{
-width: 25%;
+width: 40%;
+margin: 10px;
 
 }
 
@@ -47,10 +65,63 @@ width: 25%;
     display: flex;
     justify-content:space-evenly;    
     align-items: center;
+  
+    padding: 15px;
+
+    
 }
 
+
+
 .img-estados{
-    height: 35%;
-   
+    height: 40%;
 }
+/* CARTAS*/
+.card-estados{
+    margin-top: 1em;
+   
+    margin-bottom:2em;
+    padding: 2px 16px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+  
+}
+
+.card{
+    background-color:yellow;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 5px;
+    
+}
+
+.card-img{
+    margin-top: 15px;
+    width: 85%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) ;
+}
+
+.content-card{
+    margin-top: 20px;
+    text-align: center;
+}
+.description{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+}
+.card-btn{
+    margin:10px;
+    background-color:yellowgreen;
+    width: 40%;
+    height: 30px;
+    text-align: center;
+    padding: 5px;
+}
+
 
